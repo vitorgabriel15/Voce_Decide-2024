@@ -8,8 +8,10 @@ const perguntas = [
     {
         enunciado: "texto01",
         alternativas: [
-            'alternativa01',
-            'alternativa02'
+            {
+                texto: "alternativa01",
+                afirmacao:"afirmacao01"
+            }
         ]
     },
     {
